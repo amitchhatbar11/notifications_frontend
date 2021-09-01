@@ -16,7 +16,7 @@ function App() {
     };
     setTimeout(() => {
       getInvitationsAndUpdatedOnes(params);
-    }, 2000);
+    }, 8000);
   }, [callUpdateInvitations]);
 
   const getInvitationsAndUpdatedOnes = (params) => {
